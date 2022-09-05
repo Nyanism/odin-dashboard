@@ -15,10 +15,15 @@
   grid-row: 1 / -1;
   grid-column: 1 / 2;
 
+  display: grid;
+  grid-template-rows: 1fr 4fr 5fr;
+
   font-family: 'Roboto', sans-serif;
+  color: white;
 
   background-color:#1992D4;
-  
+
+  padding: 0px 15px 0px;
 }
 
 .dashboard {
@@ -28,13 +33,37 @@
 
   font-size: 1.6rem;
   font-weight: 600;
-  color: white;
 
-  margin: 15px;
+  padding: 0px;
 }
 
 .dashboard-icon {
   width: 40px;
+  height: auto;
+}
+
+.sidebar-main-list>ul,
+.sidebar-secondary-list>ul {
+  display: grid;
+  gap: 15px;
+
+  padding: 10px;
+}
+
+.sidebar-main-list>ul>li,
+.sidebar-secondary-list>ul>li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sidebar-main-list>ul>li>img,
+.sidebar-secondary-list>ul>li>img {
+  width: 30px;
   height: auto;
 }
 
