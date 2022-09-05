@@ -21,6 +21,23 @@
   
 }
 
+.dashboard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+
+  margin: 15px;
+}
+
+.dashboard-icon {
+  width: 40px;
+  height: auto;
+}
+
 .main-content {
   grid-row: 2 / -1;
   grid-column: 2 / -1;
