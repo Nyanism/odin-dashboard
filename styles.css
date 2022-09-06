@@ -9,7 +9,7 @@
   grid-column: 2 / -1;
 
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1.5fr;
 
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -61,6 +61,43 @@
   height: 45px;
   border-radius: 50%;
 }
+
+.bottom-bar {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  margin: 0px 35px;
+}
+
+.welcome {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  column-gap: 10px
+}
+
+.profile-picture-large {
+  place-self: center;
+
+  height: 80px;
+  border-radius: 50%;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.user-handle {
+  margin-top: -15px;
+
+  font-size: 1.4rem;
+}
+
+
 
 .sidebar {
   grid-row: 1 / -1;
