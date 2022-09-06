@@ -8,7 +8,38 @@
   grid-row: 1 / 2;
   grid-column: 2 / -1;
 
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+
   font-family: 'Roboto', sans-serif;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.top-bar {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.search-bar {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-icon {
+  height: 1.5rem;
+  justify-self: end;
+}
+
+#search {
+  background-color: #E2E8F0;
+  height: 1.5rem;
+  width: 32rem;
+  border-radius: 999px;
+  border: none;
+
+  justify-self: start;
 }
 
 .sidebar {
