@@ -64,7 +64,7 @@
 
 .bottom-bar {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1.3fr;
 
   margin: 0px 35px;
 }
@@ -97,7 +97,24 @@
   font-size: 1.4rem;
 }
 
+.header-buttons {
+  display: grid;
+  place-items: center;
+  grid-auto-flow: column;
+}
 
+.header-buttons > button {
+  background-color: #1992D4;
+  border: none;
+  border-radius: 999px;
+  color: white;
+
+  width: 6rem;
+  height: 2.2rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+}
 
 .sidebar {
   grid-row: 1 / -1;
