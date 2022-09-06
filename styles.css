@@ -18,6 +18,7 @@
 .top-bar {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
+  padding: 10px;
 }
 
 .search-bar {
@@ -40,6 +41,25 @@
   border: none;
 
   justify-self: start;
+}
+
+.profile-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.notification-icon {
+  height: 1.5rem;
+}
+
+.profile-picture-small {
+  height: 45px;
+  border-radius: 50%;
 }
 
 .sidebar {
